@@ -1,0 +1,8 @@
+#! /bin/bash
+
+python3 -m venv python
+source ./python/bin/activate
+python -m pip install --upgrade pip
+python -m pip install dnspython
+python -m pip install srvlookup
+
